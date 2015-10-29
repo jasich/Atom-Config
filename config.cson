@@ -1,0 +1,57 @@
+"*":
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    fontSize: 15
+    softTabs: false
+    showInvisibles: true
+  core:
+    themes: [
+      "one-dark-ui"
+      "one-dark-syntax"
+    ]
+    projectHome: "/Users/jason/Projects"
+    disabledPackages: [
+      "git-blame-plus"
+    ]
+  "exception-reporting":
+    userId: "d9a613a9-e47f-edfa-dc48-9868294a23ba"
+  welcome:
+    showOnStartup: false
+  tabs:
+    showIcons: true
+    usePreviewTabs: true
+  minimap: {}
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+    ]
+  emmet: {}
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+    useGlobalEslint: true
+  linter:
+    subtleLinterErrors: [
+      "pep8"
+    ]
+    showErrorTabProject: false
+  "linter-pep8":
+    ignoreErrorCodes: [
+      "E501"
+    ]
+    pep8ExecutablePath: "/usr/local/bin/pep8"
+  "linter-pylint":
+    executable: "env/bin/pylint"
+    rcFile: ".pylintrc"
+  "markdown-preview": {}
+  autosave:
+    enabled: true
+  "jscs-fixer": {}
+  "git-blame-plus": {}
+  "linter-jscs":
+    esnext: true
+    fixOnSave: true
+    onlyConfig: true
+".python.source":
+  editor:
+    autoIndentOnPaste: true
